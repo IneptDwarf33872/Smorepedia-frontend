@@ -1,0 +1,26 @@
+.All{
+    background-color: #FFFFF0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.content{
+    width: 100vw;
+    background-color: #ffface;
+    align-self: flex-start;
+    height: 400vh;
+    padding: 20px;
+    font-size: 20px;
+}
+.editor{
+    resize: none;
+    
+}
+  
