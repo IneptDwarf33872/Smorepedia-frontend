@@ -55,14 +55,6 @@ async function remove(id) {
   }
 }
 
-// Simplified version of askQuestion function
-function askQuestion(prompt) {
-  return new Promise((resolve) => {
-    rl.question(prompt, (answer) => {
-      resolve(answer);
-    });
-  });
-}
 
 // Updated update function using axios
 async function update(id, newData, prop) {
