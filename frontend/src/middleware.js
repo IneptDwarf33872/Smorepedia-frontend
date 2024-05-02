@@ -1,6 +1,6 @@
 
 const axios = require("axios"); // Import axios
-const address = 'https://smorepedia-jdtk.vercel.app/';
+const address = 'https://smorepedia-jdtk.vercel.app/api/';
 
 // Function to make GET requests with axios
 async function query(path, dataToSend) {
