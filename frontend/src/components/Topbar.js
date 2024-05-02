@@ -6,7 +6,7 @@ import {query} from '../middleware'
 const results = [
 
 ]
-const titles = query('/byprop', {prop: 'title'});
+const titles = query('byprop', {prop: 'title'});
 const pages = [];
 for(let index in titles){
     pages.push(titles[index]);
