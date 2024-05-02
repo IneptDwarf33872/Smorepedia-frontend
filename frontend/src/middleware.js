@@ -8,6 +8,7 @@ async function query(path, dataToSend) {
     const response = await axios.get(`${address}${path}`, {
       params: dataToSend,
     });
+    console.log(response);
     return response.data;
   } catch (error) {
     console.error("Error:", error.message);
