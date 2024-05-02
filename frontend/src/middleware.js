@@ -6,7 +6,7 @@ const address = 'https://smorepedia-jdtk.vercel.app/api/';
 async function query(path, dataToSend) {
   try {
     const response = await axios.get(`${address}${path}`, {
-      data: dataToSend,
+      params: dataToSend,
     });
     return response.data;
   } catch (error) {
